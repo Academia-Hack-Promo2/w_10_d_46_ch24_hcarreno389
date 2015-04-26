@@ -1,0 +1,54 @@
+h1{
+	text-align: center;
+	color: #7C8A95;
+	margin: 0;
+
+}
+h3{
+	color: #7C8A95;
+	text-align: center;
+}
+#tablero{
+
+	margin: 0 auto;
+	height: 309px;
+	width: 309px;
+
+	
+}
+.columna{
+	float: left;
+	width: 103px;
+	height: 309px;
+	
+}
+.cuadros{
+	 
+	width: 100px;	
+	height: 100px;
+	background-color: #0C547A;
+}
+body{
+	background-image: url('12B.jpg');
+}
+#linea1{
+	float: right;
+	width: 3px;
+	height: 306px;
+	background-color: #fff;
+}
+#linea2{
+	float: bottom;
+	width: 100px;
+	height: 3px;
+	background-color: #fff;
+}
+#numeros{
+	float: left;
+	position: relative;
+	bottom: 230px;
+	left: 320px;
+}
+.num{
+	margin-bottom: 70px;
+}

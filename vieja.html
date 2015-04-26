@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La vieja</title>
+	<meta charset="utf-8">
+	<meta name="descripcion" content="La vieja js">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="vieja.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Bienvenido a la Vieja</h1>
+					<a href="juego">Click aqui para jugar </a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Tablero</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="tablero">
+
+								<div class="columna">
+									<h1>1</h1>
+									<div id="linea1"></div>
+									<div class="cuadros" id="1,1"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="1,2"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="1,3"></div>
+								</div>
+								
+								<div class="columna">
+									<h1>2</h1>
+									<div id="linea1"></div>
+									<div class="cuadros" id="2,1"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="2,2"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="2,3"></div>
+								</div>
+
+								<div class="columna">
+									<h1>3</h1>
+									<div class="cuadros" id="3,1"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="3,2"></div>
+									<div id="linea2"></div>
+									<div class="cuadros" id="3,3"></div>
+								</div>
+							</div>
+							<div id="numeros">
+								<h1 class="num">1</h1>
+								<h1 class="num">2</h1>
+								<h1 class="num">3</h1>
+							</div>
+							<input type="text" name="coordenadas" value="Coordenadas" id="coor">
+							<button onclick="play()">Jugar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="vieja.js"></script>
+	</body>
+	</html>
